@@ -4,20 +4,19 @@ body{
     padding: 0;
 }
 
-
     /* Navigation*/
 nav {
     display: flex;
     justify-content: flex-end;
-    width: 20%;
-    margin-left: auto; 
+    min-width: 20%;
+    align-items: center;
+    margin-top: 1%;
 }
 
 nav a{
-    color: black;
+    color: #5a5858;
     text-decoration: none;
-    margin-top: 27px;
-    margin-right: 20px;
+    margin-right: 1%;
 }
 
 nav a:hover{
@@ -26,19 +25,29 @@ nav a:hover{
 }
 
 nav img{
-    height: 30px;
-    margin-top: 20px;
-    margin-right: 40px;
+    height: 30%;
+    width: 2%;
+    margin: 0 1%;
 }
 
 nav .g{
-    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 120%;
+    color: #fff;
+    font-weight: 700;
+    /* background-color:red;
     padding: 5px;
     border: 8px solid red;
     border-radius: 64px;
     margin-right: 20px;
     margin-top: 10px;
-    color: whitesmoke;  
+    color: whitesmoke;   */
 }
 
 div img{
