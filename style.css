@@ -51,8 +51,19 @@ nav .g{
     color: whitesmoke;   */
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover {
+    text-align: center;
+}
+
 div img{
-    height: 94px;
+    height: 30%;
+    width: 25%;
 } 
 
     /* Search Field*/
