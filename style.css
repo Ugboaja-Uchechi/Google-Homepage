@@ -2,6 +2,7 @@ body{
     background-color: white;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
     /* Navigation*/
@@ -52,16 +53,12 @@ nav .g{
 
 div img{
     height: 94px;
-    margin-top: 60px;
-    margin-left: 519px;
-
 } 
 
     /* Search Field*/
 
 input{
     width: 40%;
-    margin-left: 380px;
     padding: 14px;
     border-radius: 33px;
     margin-top: 20px;
@@ -73,7 +70,7 @@ input:hover{
     box-shadow:  8px 8px gainsboro;
 }
 
-.search, .mic{
+/* .search, .mic{
     position: absolute;
     top: 0;
     height: 17px;
@@ -81,8 +78,9 @@ input:hover{
     justify-content: center;
     align-items: center;
     
-}
-.search{
+} */
+
+/* .search{
     margin-left: 394px;
     margin-top: 247px;
 }
@@ -90,7 +88,7 @@ input:hover{
 .mic{
     margin-left: 920px;
     margin-top: 247px;
-}
+} */
 
     /* Buttons*/
 .select{
