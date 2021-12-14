@@ -2,7 +2,6 @@ body{
     background-color: white;
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
     /* Navigation*/
@@ -107,7 +106,6 @@ button{
     background-color: #F8F9FA;
     border-radius: 4px;
     color: #3c4043;
-    font-family: arial,sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
@@ -144,6 +142,9 @@ button:hover{
 }
 
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: #F2F2F2;
     font-size: 19px;
 }
@@ -153,7 +154,6 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-top: 1px solid gray;
     
 }
 
@@ -175,6 +175,7 @@ footer{
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: #70757a;
+    margin: 0;
 }
 
 .bottomleft {
@@ -184,9 +185,12 @@ footer{
     flex-wrap: wrap;
     order: 1;
     font-size: 14px;
-    font-family: arial,sans-serif;
     color: #70757a;
     
+}
+
+.bottomleft a {
+    padding: 15px;
 }
 
 .carbon {
@@ -196,9 +200,12 @@ footer{
     order: 2;
     /* min-width: 30%; */
     font-size: 14px;
-    font-family: arial,sans-serif;
     color: #70757a;
     
+}
+
+.carbon a {
+    padding: 15px;
 }
 
 .bottomright {
@@ -210,7 +217,10 @@ footer{
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #70757a;
-    
+}
+
+.bottomright a {
+    padding: 15px;
 }
 
 .bottomright:hover{
