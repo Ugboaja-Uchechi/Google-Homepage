@@ -101,18 +101,27 @@ input:hover{
 }
 
 button{
-    padding: 10px; 
-    border-radius: 4px;
-    margin: 3px;
-    font-size: 17px;
     outline: 0;
-    
+    border: 1px solid #F8F9FA;
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 button:hover{
-    background-color: #888;
     cursor: pointer;
-    
+    box-shadow: 0 1px 1px gainsboro;
+    border: 1px solid gainsboro;
 }
 
 .text{
