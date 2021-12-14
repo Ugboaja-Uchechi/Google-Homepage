@@ -144,30 +144,73 @@ button:hover{
 }
 
 footer{
-    background-color: gainsboro;
+    background-color: #F2F2F2;
     font-size: 19px;
-    margin-top: 170px;
 }
 
 .footerbottom{
-    padding: 16px;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     border-top: 1px solid gray;
     
 }
 
-p{
+/* p{
     margin-top: 100px;
     margin-bottom: 18px;
-}
+} */
 
-.bottomleft a{
+/* .bottomleft a{
     margin-right: 16px;
 }
 
 .bottomright a{
     margin-right: 16px;
+} */
+
+.country {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.bottomleft {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 30%;
+    flex-wrap: wrap;
+    order: 1;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    
+}
+
+.carbon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 2;
+    /* min-width: 30%; */
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    
+}
+
+.bottomright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    order: 3;
+    min-width: 30%;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    
 }
 
 .bottomright:hover{
